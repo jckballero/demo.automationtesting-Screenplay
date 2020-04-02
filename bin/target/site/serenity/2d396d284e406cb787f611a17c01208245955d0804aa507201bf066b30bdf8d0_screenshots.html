@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="9f7cecd9593ba936452c7a5f1c87c16a625c87ade0e47bbc968c8f1f4412aa4b.html">Automation Demosite</a></span>
+                > <span class="truncate-60"><a
+                    href="2d396d284e406cb787f611a17c01208245955d0804aa507201bf066b30bdf8d0.html">Acceder a la Web Automation demo </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 30-03-2020 14:56</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Automation Demosite </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como usuario<br />
+Quiero ingresar a la web Automation Demo Side<br />
+para verificar que la pantalla muestre el texto solicitado
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Acceder a la Web Automation demo
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Cucumber exception: Arity mismatch: Step Definition 'pa.com.choucair.certification.proyectobase.stepdefinitions.AutomationDemoSiteStepDefinitions.elVerificaQueSeCargaLaPantallaConTextoDoubleClickOnEditIconToEDITTheTableRow(String) in file:/C:/Users/LATITUDE-E7450/IdeaProjects/pa.com.choucair.certification.automationdemosite/build/classes/java/test/' with pattern [^el verifica que se carga la pantalla con texto Double Click on Edit Icon to EDIT the Table Row$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. </span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>cucumber.runtime.CucumberException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource4859859716504956477.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="eb18330698ac11188c6f98e90c1c39af8ae8569eae437bb26f9ccaa53052df02.png" title=" Given que Jean quiere acceder a la Web Automation Demo Site" width="1921"/>
+                <img src="eb18330698ac11188c6f98e90c1c39af8ae8569eae437bb26f9ccaa53052df02.png" title=" Jean open up" width="1921"/>
+                <img src="eb18330698ac11188c6f98e90c1c39af8ae8569eae437bb26f9ccaa53052df02.png" title=" Jean opens the Demo automation url page" width="1921"/>
+                <img src="eb18330698ac11188c6f98e90c1c39af8ae8569eae437bb26f9ccaa53052df02.png" title=" Jean open up (completed)" width="1921"/>
+                <img src="eb18330698ac11188c6f98e90c1c39af8ae8569eae437bb26f9ccaa53052df02.png" title=" Given que Jean quiere acceder a la Web Automation Demo Site (completed)" width="1921"/>
+                <img src="4979b000f225fbc40d9cf3772a35863859172a6006952c55cea2208498b7ee0c.png" title=" When el realiza el registro en la pagina
+| firstName | lastName | address | email | phone | gender | hobbies1 | hobbies2 | languages | skills | country | selectCountry | year | month | day | password | confirmPassword |
+| Jean Carlos | Caballero | Panama Rep. Panama | jean1.caballero@mail.com | 4556118813 | Male | Cricket | Hockey | Spanish | C++ | Aruba | India | 1990 | August | 29 | Abcd1234 | Abcd1234 |" width="1921"/>
+                <img src="4979b000f225fbc40d9cf3772a35863859172a6006952c55cea2208498b7ee0c.png" title=" Jean form validation" width="1921"/>
+                <img src="4979b000f225fbc40d9cf3772a35863859172a6006952c55cea2208498b7ee0c.png" title=" Jean enters 'Jean Carlos' into campo para el primer nombre" width="1921"/>
+                <img src="3d58b11b8a377107a5c0a8bd2c7c09f89d987441b74e8f048946b3a07ac24452.png" title=" Jean enters 'Caballero' into campo para el apellido" width="1921"/>
+                <img src="530102270c2a3a34906b68ed33f579d0e02dd3f8c1cc4049594fdc4a823b6282.png" title=" Jean enters 'Panama Rep. Panama' into campo para la direcci&oacute;n" width="1921"/>
+                <img src="420647f84db8084b5032ecf568c0fe9960af0f99353857aa85b41d19ed02570c.png" title=" Jean enters 'jean1.caballero@mail.com' into campo para el correo" width="1921"/>
+                <img src="6ea5502be1fa559a4ad006f5f3d4e1d8ebdc411b4cd210ba6932c8250286af5c.png" title=" Jean enters '4556118813' into campo para el telefono" width="1921"/>
+                <img src="0d8e509293051ffe16567dc9b8c194ced7932892d702a469379c6321f789efa6.png" title=" Jean clicks on Radio button para escoger  genero masculino" width="1921"/>
+                <img src="8aa5661874edee3aaf82f6c34b6afc18daef5babdea6748b8dde4b96f7928359.png" title=" Jean clicks on checkboc cricket" width="1921"/>
+                <img src="b7a9ddd19fb121a980019d07564d9a5dc61be782719e06c495d1da35cc91ce95.png" title=" Jean clicks on checkbox hockey" width="1921"/>
+                <img src="563db02a8825952b02d6bef301bff29fd0823af9fb297335eb5ea31fb8871303.png" title=" Jean clicks on desplegar lenguajes" width="1921"/>
+                <img src="2883cea61e51c00cab2ce39818bdfcfce4ad69a6644cce5c959f850102fb4cd2.png" title=" Jean clicks on Ingresa lenguaje" width="1921"/>
+                <img src="cd16954e38baf188a9e9f012b12058530d3576d09240bc3791c2a743a8909b4b.png" title=" Jean select C++ on campo de skills" width="1921"/>
+                <img src="c040df12a8b1b35c2b221c01944ee98af007b6b71115bfe9f34ef8ce5b04dcfb.png" title=" Jean select Aruba on seleccionar pais" width="1921"/>
+                <img src="391bf3e5d4e00066a59f72865e8e4cbb1b9c2df00041b91f2eac95176bc6c2ad.png" title=" Jean select India on escoger pais" width="1921"/>
+                <img src="fa5f64b76ee6064957dec424c593068064abdbf56c9608fe82f746a0409cac48.png" title=" Jean select 1990 on fecha de nacimiento" width="1921"/>
+                <img src="10956cf19317694aab5054c3c9ee557635c6f30e9bd96213a2c0017e45deb69d.png" title=" Jean select August on mes de nacimiento" width="1921"/>
+                <img src="cdde34fac0717711ec676b73190d14e5787f8127e6d16dfcba5a148761d96d54.png" title=" Jean select 29 on dia de nacimiento" width="1921"/>
+                <img src="8a5001223efb32a5f180a01b468e9778217af29f49ccf009943d4cf10a56aad5.png" title=" Jean enters 'Abcd1234' into escribir contrase&ntilde;a" width="1921"/>
+                <img src="5d7890351e85cd634fe58cc4809875004c2f829ce1f4b4e2b2786777648c1a77.png" title=" Jean enters 'Abcd1234' into fconfirmar contrase&ntilde;a" width="1921"/>
+                <img src="be01977901815eb8b77ae066f5f128bbfd063c822b3f73184916119a8846fb98.png" title=" Jean clicks on boton para ingresar" width="1921"/>
+                <img src="be01977901815eb8b77ae066f5f128bbfd063c822b3f73184916119a8846fb98.png" title=" Jean form validation (completed)" width="1921"/>
+                <img src="be01977901815eb8b77ae066f5f128bbfd063c822b3f73184916119a8846fb98.png" title=" When el realiza el registro en la pagina
+| firstName | lastName | address | email | phone | gender | hobbies1 | hobbies2 | languages | skills | country | selectCountry | year | month | day | password | confirmPassword |
+| Jean Carlos | Caballero | Panama Rep. Panama | jean1.caballero@mail.com | 4556118813 | Male | Cricket | Hockey | Spanish | C++ | Aruba | India | 1990 | August | 29 | Abcd1234 | Abcd1234 | (completed)" width="1921"/>
+                <img src="be01977901815eb8b77ae066f5f128bbfd063c822b3f73184916119a8846fb98.png" title=" Then el verifica que se carga la pantalla con texto Double Click on Edit Icon to EDIT the Table Row: <span class='error-color'>ERROR</span>" width="1921"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>

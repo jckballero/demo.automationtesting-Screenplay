@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ccf9526-d954-4374-927b-9e56ca0b9f81" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z00ROFEyqKR0pOnVSknA279VuJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/pa/com/choucair/certification/proyectobase" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/DemoAutomationRegister-a82a01cf6ac26aba8776c7763e66e76f0f6d753d" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pa.com.choucair.certification.proyectobase.questions" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pa.com.choucair.certification.proyectobase.tasks" />
+      <recent name="pa.com.choucair.certification.proyectobase.userinterfaces" />
+      <recent name="pa.com.choucair.certification.automationdemosite.userinterfaces" />
+      <recent name="pa.com.choucair.certification.automationdemosite.tasks" />
+      <recent name="pa.com.choucair.certification.proyectobase.runners" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.RunnerTags">
+    <configuration name="Feature: automation_demosite" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/automation_demosite.feature" />
+      <option name="GLUE" value="pa.com.choucair.certification.proyectobase.stepdefinitions net.serenitybdd.cucumber.actors" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="pa.com.choucair.certification.proyectobase.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: automation_demosite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Acceder a la Web Automation demo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/automation_demosite.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.cli.Main" />
+      <module name="pa.com.choucair.certification.automationdemosite" />
+      <option name="NAME_FILTER" value="^Acceder a la Web Automation demo$" />
+      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Acceder a la Web Automation demo$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Acceder a la Web Automation demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerTags" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;pa.com.choucair.certification.proyectobase.runners.RunnerTags&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.RunnerTags" />
+        <item itemvalue="Cucumber java.Feature: automation_demosite" />
+        <item itemvalue="Gradle.RunnerTags" />
+        <item itemvalue="Gradle.RunnerTags" />
+        <item itemvalue="Cucumber java.Scenario: Acceder a la Web Automation demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ccf9526-d954-4374-927b-9e56ca0b9f81" name="Default Changelist" comment="" />
+      <created>1583960695358</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583960695358</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="330" y="53" key="#HTTP_Proxy" timestamp="1584110666644">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="330" y="53" key="#HTTP_Proxy/0.0.1475.789/-1366.0.1049.550@0.0.1475.789" timestamp="1584110666644" />
+    <state x="330" y="53" key="#Inspections" timestamp="1583963023552">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="330" y="53" key="#Inspections/0.0.1475.789/-1366.0.1049.550@0.0.1475.789" timestamp="1583963023552" />
+    <state x="330" y="53" key="#Plugins" timestamp="1583989090187">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="330" y="53" key="#Plugins/0.0.1475.789@0.0.1475.789" timestamp="1583989090187" />
+    <state x="330" y="53" key="#Project_Settings" timestamp="1584112243303">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="330" y="53" key="#Project_Settings/0.0.1475.789/-1366.0.1049.550@0.0.1475.789" timestamp="1583967482078" />
+    <state x="330" y="53" key="#Project_Settings/0.0.1475.789@0.0.1475.789" timestamp="1584112243303" />
+    <state x="330" y="53" key="#Project_Structure" timestamp="1585064516366">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="330" y="53" key="#Project_Structure/0.0.1475.789/-1366.0.1049.550@0.0.1475.789" timestamp="1584107010359" />
+    <state x="330" y="53" key="#Project_Structure/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585064516366" />
+    <state x="330" y="53" key="#SonarLint" timestamp="1584112241730">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="330" y="53" key="#SonarLint/0.0.1475.789/-1366.0.1049.550@0.0.1475.789" timestamp="1583967479680" />
+    <state x="330" y="53" key="#SonarLint/0.0.1475.789@0.0.1475.789" timestamp="1584112241730" />
+    <state x="0" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1585068008521">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="0" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585068008521" />
+    <state x="0" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1475.789@0.0.1475.789" timestamp="1584694899355" />
+    <state x="447" y="342" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1585034374875">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="447" y="342" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585034374875" />
+    <state x="447" y="342" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1475.789@0.0.1475.789" timestamp="1584695035580" />
+    <state x="418" y="131" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585594031059">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="418" y="131" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1475.789@0.0.1475.789" timestamp="1585594031059" />
+    <state x="410" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585598144609">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="410" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585113436837" />
+    <state x="410" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1475.789@0.0.1475.789" timestamp="1585598144609" />
+    <state x="468" y="142" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585113543772">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="468" y="142" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585113543772" />
+    <state x="498" y="247" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585587962051">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="498" y="247" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1475.789@0.0.1475.789" timestamp="1585587962051" />
+    <state x="518" y="150" key="FileChooserDialogImpl" timestamp="1585589710911">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="518" y="150" key="FileChooserDialogImpl/0.0.1475.789/-1366.0.1049.550@0.0.1475.789" timestamp="1584108461578" />
+    <state x="518" y="150" key="FileChooserDialogImpl/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585466300578" />
+    <state x="518" y="150" key="FileChooserDialogImpl/0.0.1475.789@0.0.1475.789" timestamp="1585589710911" />
+    <state width="1431" height="210" key="GridCell.Tab.0.bottom" timestamp="1585598192467">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state width="1431" height="210" key="GridCell.Tab.0.bottom/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585558512835" />
+    <state width="1431" height="210" key="GridCell.Tab.0.bottom/0.0.1475.789@0.0.1475.789" timestamp="1585598192467" />
+    <state width="1431" height="210" key="GridCell.Tab.0.center" timestamp="1585598192467">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state width="1431" height="210" key="GridCell.Tab.0.center/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585558512834" />
+    <state width="1431" height="210" key="GridCell.Tab.0.center/0.0.1475.789@0.0.1475.789" timestamp="1585598192467" />
+    <state width="1431" height="210" key="GridCell.Tab.0.left" timestamp="1585598192467">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state width="1431" height="210" key="GridCell.Tab.0.left/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585558512833" />
+    <state width="1431" height="210" key="GridCell.Tab.0.left/0.0.1475.789@0.0.1475.789" timestamp="1585598192467" />
+    <state width="1431" height="210" key="GridCell.Tab.0.right" timestamp="1585598192467">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state width="1431" height="210" key="GridCell.Tab.0.right/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585558512834" />
+    <state width="1431" height="210" key="GridCell.Tab.0.right/0.0.1475.789@0.0.1475.789" timestamp="1585598192467" />
+    <state width="1431" height="247" key="GridCell.Tab.1.bottom" timestamp="1585594082848">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state width="1417" height="208" key="GridCell.Tab.1.bottom/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585210116952" />
+    <state width="1431" height="247" key="GridCell.Tab.1.bottom/0.0.1475.789@0.0.1475.789" timestamp="1585594082848" />
+    <state width="1431" height="247" key="GridCell.Tab.1.center" timestamp="1585594082848">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state width="1417" height="208" key="GridCell.Tab.1.center/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585210116952" />
+    <state width="1431" height="247" key="GridCell.Tab.1.center/0.0.1475.789@0.0.1475.789" timestamp="1585594082848" />
+    <state width="1431" height="247" key="GridCell.Tab.1.left" timestamp="1585594082848">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state width="1417" height="208" key="GridCell.Tab.1.left/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585210116952" />
+    <state width="1431" height="247" key="GridCell.Tab.1.left/0.0.1475.789@0.0.1475.789" timestamp="1585594082848" />
+    <state width="1431" height="247" key="GridCell.Tab.1.right" timestamp="1585594082848">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state width="1417" height="208" key="GridCell.Tab.1.right/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585210116952" />
+    <state width="1431" height="247" key="GridCell.Tab.1.right/0.0.1475.789@0.0.1475.789" timestamp="1585594082848" />
+    <state x="246" y="37" key="SettingsEditor" timestamp="1583964636296">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="246" y="37" key="SettingsEditor/0.0.1475.789/-1366.0.1049.550@0.0.1475.789" timestamp="1583964636296" />
+    <state x="559" y="173" key="chooseDestDirectoryDialog" timestamp="1584076548067">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="559" y="173" key="chooseDestDirectoryDialog/0.0.1475.789@0.0.1475.789" timestamp="1584076548067" />
+    <state x="439" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1585456126167">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="439" y="218" key="com.intellij.ide.util.TipDialog/0.0.1475.789/-1366.0.1049.550@0.0.1475.789" timestamp="1584105442293" />
+    <state x="439" y="218" key="com.intellij.ide.util.TipDialog/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585456126167" />
+    <state x="439" y="218" key="com.intellij.ide.util.TipDialog/0.0.1475.789@0.0.1475.789" timestamp="1584074885862" />
+    <state x="216" y="150" key="org.sonarlint.intellij.config.global.wizard.SQServerWizard$SonarQubeWizard" timestamp="1584112239939">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="216" y="150" key="org.sonarlint.intellij.config.global.wizard.SQServerWizard$SonarQubeWizard/0.0.1475.789/-1366.0.1049.550@0.0.1475.789" timestamp="1583967478428" />
+    <state x="216" y="150" key="org.sonarlint.intellij.config.global.wizard.SQServerWizard$SonarQubeWizard/0.0.1475.789@0.0.1475.789" timestamp="1584112239939" />
+    <state x="445" y="14" key="refactoring.ChangeSignatureDialog" timestamp="1585206664879">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="445" y="14" key="refactoring.ChangeSignatureDialog/0.0.1475.789/1920.-121.1475.789@0.0.1475.789" timestamp="1585206664879" />
+    <state x="400" y="110" width="672" height="678" key="search.everywhere.popup" timestamp="1584022140565">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="400" y="110" width="672" height="678" key="search.everywhere.popup/0.0.1475.789@0.0.1475.789" timestamp="1584022140565" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/build/classes/java/main/pa/com/choucair/certification/automationdemosite/tasks/OpenUp.class</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

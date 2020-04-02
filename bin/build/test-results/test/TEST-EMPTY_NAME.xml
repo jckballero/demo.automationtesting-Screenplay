@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EMPTY_NAME" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-03-30T19:56:36" hostname="DESKTOP-OQALJ8C" time="36.049">
+  <properties/>
+  <testcase name="Acceder a la Web Automation demo" classname="EMPTY_NAME" time="36.049">
+    <failure message="cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'pa.com.choucair.certification.proyectobase.stepdefinitions.AutomationDemoSiteStepDefinitions.elVerificaQueSeCargaLaPantallaConTextoDoubleClickOnEditIconToEDITTheTableRow(String) in file:/C:/Users/LATITUDE-E7450/IdeaProjects/pa.com.choucair.certification.automationdemosite/build/classes/java/test/' with pattern [^el verifica que se carga la pantalla con texto Double Click on Edit Icon to EDIT the Table Row$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. &#10;Step text: el verifica que se carga la pantalla con texto Double Click on Edit Icon to EDIT the Table Row" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'pa.com.choucair.certification.proyectobase.stepdefinitions.AutomationDemoSiteStepDefinitions.elVerificaQueSeCargaLaPantallaConTextoDoubleClickOnEditIconToEDITTheTableRow(String) in file:/C:/Users/LATITUDE-E7450/IdeaProjects/pa.com.choucair.certification.automationdemosite/build/classes/java/test/' with pattern [^el verifica que se carga la pantalla con texto Double Click on Edit Icon to EDIT the Table Row$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step text: el verifica que se carga la pantalla con texto Double Click on Edit Icon to EDIT the Table Row
+	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:111)
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:66)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[mar 30, 2020 2:56:37 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 31936
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585598202.599][WARNING]: Timed out connecting to Chrome, retrying...
+mar 30, 2020 2:56:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[1585598205.428][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598205.530][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598205.633][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598205.738][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598205.839][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598205.940][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598206.042][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598206.143][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598206.244][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598206.346][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598206.448][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598206.550][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598206.651][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598206.753][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598206.855][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598206.956][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598207.057][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598207.159][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598207.261][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598207.369][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598207.474][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598207.576][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598207.678][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598207.780][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598207.885][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598207.988][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598208.091][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598208.194][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598208.299][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598208.402][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598208.595][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598208.699][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598208.802][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598208.905][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598209.007][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598209.259][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598209.480][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598209.757][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598209.858][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598209.959][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598210.065][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598212.135][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598212.236][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598212.339][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598212.453][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598212.554][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598212.656][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598212.758][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598212.861][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598212.964][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598213.067][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598213.169][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598213.273][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598213.379][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598213.483][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598213.586][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598213.689][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598213.794][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598213.961][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598214.063][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598214.165][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598214.422][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598214.525][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598214.632][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598214.745][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585598214.847][SEVERE]: Timed out receiving message from renderer: 0.100
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Acceder a la Web Automation demo
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then el verifica que se carga la pantalla con texto Double Click on Edit Icon to EDIT the Table Row
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Arity mismatch: Step Definition 'pa.com.choucair.certification.proyectobase.stepdefinitions.AutomationDemoSiteStepDefinitions.elVerificaQueSeCargaLaPantallaConTextoDoubleClickOnEditIconToEDITTheTableRow(String) in file:/C:/Users/LATITUDE-E7450/IdeaProjects/pa.com.choucair.certification.automationdemosite/build/classes/java/test/' with pattern [^el verifica que se carga la pantalla con texto Double Click on Edit Icon to EDIT the Table Row$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+]]></system-err>
+</testsuite>

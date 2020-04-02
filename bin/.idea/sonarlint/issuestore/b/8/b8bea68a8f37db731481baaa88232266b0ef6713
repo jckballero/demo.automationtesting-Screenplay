@@ -1,0 +1,12 @@
+
+]	java:S125,"<This block of commented-out lines of code should be removed.(­ÓÛËıÿÿÿÿ8¶†ëÙ‘.
+q	java:S116"PRename this field "Datos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¼Ç÷ÿÿÿÿÿ8˜è±‘.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾³´ù8ÄË¯‘.
+X	java:S1252"<This block of commented-out lines of code should be removed.(«¥ª8çß÷Ô’.
+r	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÖã‹ıÿÿÿÿ8™€î†‘.
+
+java:S1128"nRemove this unused import 'pa.com.choucair.certification.proyectobase.interactions.SeleccionarLenguajes.COMA'.(§¾’‡üÿÿÿÿ8Ø»îÓ’.
+…
+java:S1128
+"iRemove this unused import 'pa.com.choucair.certification.proyectobase.interactions.SeleccionarLenguajes'.(×’”t8Ï‹‡«’.
+X	java:S125="<This block of commented-out lines of code should be removed.(™×áÁ8ÄğøÍ‘.
