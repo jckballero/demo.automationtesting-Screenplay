@@ -1,9 +1,4 @@
 
-…
-java:S1128
-"iRemove this unused import 'pa.com.choucair.certification.proyectobase.interactions.SeleccionarLenguajes'.(×’”t8Ï‹‡«’.
-r	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÖã‹ıÿÿÿÿ8™€î†‘.
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾³´ù8ÄË¯‘.
-
-java:S1128"nRemove this unused import 'pa.com.choucair.certification.proyectobase.interactions.SeleccionarLenguajes.COMA'.(§¾’‡üÿÿÿÿ8Ø»îÓ’.
-q	java:S116"PRename this field "Datos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¼Ç÷ÿÿÿÿÿ8˜è±‘.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾³´ù8şï›Š•.
+r	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÖã‹ıÿÿÿÿ8ß»‚‹•.
+q	java:S116"PRename this field "Datos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¼Ç÷ÿÿÿÿÿ8şï›Š•.

@@ -2,7 +2,8 @@ package pa.com.choucair.certification.proyectobase.questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
-import static pa.com.choucair.certification.proyectobase.userinterfaces.FormValidationPage.TEXTO_SALIDA;
+import net.serenitybdd.screenplay.questions.Text;
+import pa.com.choucair.certification.proyectobase.userinterfaces.FormValidationPage;
 
 public class Answer implements Question<Boolean> {
 
@@ -12,13 +13,24 @@ public class Answer implements Question<Boolean> {
         this.labelWelcome = question;
     }
 
-    public static Answer toThe(String question) {
-        return new Answer(question);
+    public static Answer toThe(String pregunta) {
+        return new Answer(pregunta);
     }
 
     @Override
     public Boolean answeredBy(Actor actor) {
-        String label = TEXTO_SALIDA.resolveFor(actor).getText();
-        return (this.labelWelcome.equals(label));
+        boolean resultado;
+
+        String palabraValidar = Text.of(FormValidationPage.TEXTO_SALIDA).viewedBy(actor).asString();
+        if(labelWelcome.equals(palabraValidar))
+        {
+            resultado = true;
+        }
+        else{
+            resultado = false;
+        }
+        return resultado;
+
     }
 }
+

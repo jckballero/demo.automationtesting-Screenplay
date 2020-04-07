@@ -40,8 +40,8 @@ public class AutomationDemoSiteStepDefinitions {
         Jean.wasAbleTo(FormValidation.llenandoPerfil(Datos));
     }
 
-    @Then("^el verifica que se carga la pantalla con texto \"([^\"]*)\"$")
-    public void elVerificaQueSeCargaLaPantallaConTexto(String question){
+    @Then("^el verifica que se carga la pantalla con texto Double Click on Edit Icon to \"([^\"]*)\" the Table Row$")
+    public void elVerificaQueSeCargaLaPantallaConTextoDoubleClickOnEditIconToTheTableRow(String question) {
         Jean.should(seeThat(Answer.toThe(question)));
     }
 }

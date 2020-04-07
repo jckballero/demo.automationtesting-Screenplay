@@ -5,8 +5,6 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class FormValidationPage extends PageObject{
-    //public static final Target ETIQUETA_URL = Target.the("Etiqueta de confirmacion")
-            //.located(By.xpath(""));
     public static final Target  FIRST_NAME= Target.the("campo para el primer nombre")
             .located(By.xpath("//input[@type='text']"));
     public static final Target  LAST_NAME= Target.the("campo para el apellido")
@@ -27,10 +25,8 @@ public class FormValidationPage extends PageObject{
             .located(By.xpath("//INPUT[@id='checkbox2']"));
     public static final Target CHECK_BUTTON3= Target.the("checkbox hockey")
             .located(By.xpath("//INPUT[@id='checkbox3']"));
-
-    public static final Target DIV_LENGUAJES = Target.the("desplegar lenguajes").located(By.id("msdd"));
+    public static final Target SELECT_LENGUAJES = Target.the("desplegar lenguajes").located(By.id("msdd"));
     public static final Target LISTA_LENGUAJES = Target.the("Ingresa lenguaje").located(By.xpath("//A[@class='ui-corner-all'][text()='Spanish']"));
-
     public static final Target SKILLS= Target.the("campo de skills")
             .located(By.xpath("//SELECT[@id='Skills']"));
     public static final Target COUNTRY= Target.the("seleccionar pais")
@@ -49,7 +45,6 @@ public class FormValidationPage extends PageObject{
             .located(By.xpath("//INPUT[@id='secondpassword']"));
     public static final Target ENTER_BUTTON= Target.the("boton para ingresar")
             .located(By.xpath("//BUTTON[@id='submitbtn']"));
-
     public static final Target TEXTO_SALIDA = Target.the("Texto que sale al registrarse correctamente")
-            .located(By.xpath("/html/body/section/div[1]/div/div[2]/h4[1]"));
+            .located(By.xpath("//b[contains(text(),'EDIT')]"));
 }

@@ -23,7 +23,5 @@ bsrc/main/java/pa/com/choucair/certification/proyectobase/userinterfaces/DemoAut
 Msrc/main/java/pa/com/choucair/certification/proyectobase/util/Constantes.java,1\d\1d2e6fc3037a70cf9e6b7e4c3a577c568d1812bd
 Ü
 Vsrc/main/java/pa/com/choucair/certification/proyectobase/model/DemoAutomationData.java,3\5\35142d43286a026821b26b92b4dfefb25a31c452
-è
-_src/main/java/pa/com/choucair/certification/proyectobase/interactions/SeleccionarLenguajes.java,1\c\1c921049bd9da0f17980caeeb0507858d5792814
 ~
 Nsrc/main/java/pa/com/choucair/certification/proyectobase/questions/Answer.java,6\3\639e0d5d8cf6d21856fc716a7121ba428b0d4e0a
