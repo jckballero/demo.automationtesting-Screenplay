@@ -22,26 +22,26 @@ import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 
 public class AutomationDemoSiteStepDefinitions {
     @Managed(driver="chrome")
-    private WebDriver SuNavegador;
+    private WebDriver ElNavegador;
     private Actor Jean = Actor.named("Jean");
 
     @Before //Lineas preparando escenario para el actor
     public void setStage(){
-        Jean.can(BrowseTheWeb.with(SuNavegador));
+        Jean.can(BrowseTheWeb.with(ElNavegador));
     }
 
-    @Given("^que Jean quiere acceder a la Web Automation Demo Site$")
-    public void queJeanQuiereAccederALaWebAutomationDemoSite() {
-        Jean.wasAbleTo(OpenUp.thePage());//, (Login.onThePage()));
+    @Given("^that Jean wants to access the Web Automation Demo Site$")
+    public void that_Jean_wants_to_access_the_Web_Automation_Demo_Site() {
+        Jean.wasAbleTo(OpenUp.thePage());
     }
 
-    @When("^el realiza el registro en la pagina$")
-    public void elRealizaElRegistroEnLaPagina(List<DemoAutomationData> Datos) {
-        Jean.wasAbleTo(FormValidation.llenandoPerfil(Datos));
+    @When("^he makes the record on the page$")
+    public void he_makes_the_record_on_the_page(List<DemoAutomationData> Datos)  {
+        Jean.wasAbleTo(FormValidation.registerData(Datos));
     }
 
-    @Then("^el verifica que se carga la pantalla con texto Double Click on Edit Icon to \"([^\"]*)\" the Table Row$")
-    public void elVerificaQueSeCargaLaPantallaConTextoDoubleClickOnEditIconToTheTableRow(String question) {
+    @Then("^he verifies that the screen is loaded with text Double Click on Edit Icon to \"([^\"]*)\" the Table Row$")
+    public void he_verifies_that_the_screen_is_loaded_with_text_Double_Click_on_Edit_Icon_to_the_Table_Row(String question) {
         Jean.should(seeThat(Answer.toThe(question)));
     }
 }

@@ -1,4 +1,4 @@
 
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾³´ù8þï›Š•.
-r	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÖã‹ýÿÿÿÿ8ß»‚‹•.
-q	java:S116"PRename this field "Datos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¼Ç÷ÿÿÿÿÿ8þï›Š•.
+q	java:S116"PRename this field "Datos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¼Ç÷ÿÿÿÿÿ8þï›Š•.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾³´ù8þï›Š•.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ò´æ8‡Ç÷Öá.

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pa.com.choucair.certification.proyectobase.runners.RunnerTags" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-OQALJ8C" time="0.0">
+<testsuite name="pa.com.choucair.certification.proyectobase.runners.RunnerTags" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="jckballero" time="0.0">
   <properties/>
   <system-out><![CDATA[
 1 Scenarios (?[32m1 passed?[0m)
 3 Steps (?[32m3 passed?[0m)
-0m44.833s
+0m37.304s
 
 ]]></system-out>
-  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+  <system-err><![CDATA[[Test worker] INFO net.serenitybdd.core.Serenity - ?[36m
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -23,9 +23,9 @@
  Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
  Learn Serenity BDD online at http://serenity-dojo.com                               
 -------------------------------------------------------------------------------------
-
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Automation demosite
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+?[0m
+[Test worker] INFO net.serenitybdd.core.Serenity - Test Suite Started: Demo.automationtesting
+[Test worker] INFO net.serenitybdd.core.Serenity - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -33,9 +33,9 @@
   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
                                                                   
 
-TEST STARTED: Acceder a la Web Automation demo
--------------------------------------------------------------------(automation-demosite;acceder-a-la-web-automation-demo)
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+TEST STARTED: Access the Web Automation demo
+-------------------------------------------------------------------(demo.automationtesting;access-the-web-automation-demo)
+[Test worker] INFO net.serenitybdd.core.Serenity - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -43,8 +43,7 @@ TEST STARTED: Acceder a la Web Automation demo
  (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
         /_/                                                                
 
-TEST PASSED: Acceder a la Web Automation demo
+TEST PASSED: Access the Web Automation demo
 ----------------------------------------------------------------------------
-[pool-2-thread-1] INFO net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: net.thucydides.showcase.cucumber.junit
 ]]></system-err>
 </testsuite>

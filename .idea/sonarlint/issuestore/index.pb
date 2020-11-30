@@ -25,3 +25,5 @@ Msrc/main/java/pa/com/choucair/certification/proyectobase/util/Constantes.java,
 Vsrc/main/java/pa/com/choucair/certification/proyectobase/model/DemoAutomationData.java,3\5\35142d43286a026821b26b92b4dfefb25a31c452
 ~
 Nsrc/main/java/pa/com/choucair/certification/proyectobase/questions/Answer.java,6\3\639e0d5d8cf6d21856fc716a7121ba428b0d4e0a
+7
+gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
